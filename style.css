@@ -1,9 +1,23 @@
 * {
-  margin-top:5px;
-  margin-bottom:5px;
-  margin-right: 5px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .calc{
   display: flex;
   flex-direction: row;
+}
+.calculator{
+  max-width: 346px;
+  margin: 20px auto;
+  padding: 20px 5px;
+  background-color: rgb(165, 110, 110);
+}
+#calcinput{
+ padding: 15px 77px;
+ margin: 5px;
+}
+button{
+  padding: 15px 30px;
+  margin: 5px;
 }
